@@ -1,4 +1,4 @@
-function suggestClothing(humidity, temp){
+function clothingSuggestion(humidity, temp){
     let clothing;
     if(humidity >60 && temp >4){
         clothing = "rain jacket";
@@ -12,4 +12,4 @@ function suggestClothing(humidity, temp){
     return clothing;        
 }
 
-export {suggestClothing}
+export {clothingSuggestion}
