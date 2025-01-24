@@ -1,5 +1,3 @@
-
-
 import { convertMetersToYards } from "../convertMetersToYards.js";
 
 describe("test convertMetersToYards", function() {

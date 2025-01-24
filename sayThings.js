@@ -7,3 +7,4 @@ function sayThings(tone, ...things){
 
 console.log(sayThings("excited", "Happy", "Friday!"));
 
+//temp, humidity, clothing
