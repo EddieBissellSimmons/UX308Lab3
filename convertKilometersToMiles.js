@@ -5,8 +5,4 @@ function convertKilometersToMiles(kilometers){
     return miles;
 }
 
-
-let kilometers = 720;
-let miles = convertKilometersToMiles(kilometers);
-
-console.log(`${kilometers} kilometers is ${miles} miles.`);
+export {convertKilometersToMiles}
